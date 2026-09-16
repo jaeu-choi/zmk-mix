@@ -131,9 +131,9 @@ layers:
   - '%'
   - ^
   - '&'
+  - '*'
   - VOL DN
   - VOL UP
-  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
