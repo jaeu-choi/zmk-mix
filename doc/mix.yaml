@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - '&f20_down'
+  - RSHFT
   - LCTRL
   - MUTE
   - LEFT ALT
@@ -60,7 +60,7 @@ layers:
   - F18
   - RIGHT ALT
   - {t: SPACE, h: Buleth}
-  - RCTRL
+  - '&f20_down'
   layer 1:
   - F12
   - F1
@@ -91,13 +91,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (
+  - )
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,8 +156,8 @@ layers:
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - UP ARROW
+  - ':'
   - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,11 +166,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
+  - Ctl+LEFT ARROW
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
