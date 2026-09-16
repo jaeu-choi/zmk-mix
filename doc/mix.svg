@@ -386,10 +386,10 @@ path.combo {
 <text x="441" y="163" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M628,205 l46,-51" class="combo"/>
-<path d="M628,205 l-46,51" class="combo"/>
-<rect rx="6" ry="6" x="614" y="192" width="28" height="26" class="combo"/>
-<text x="628" y="205" class="combo tap">BSPC</text>
+<path d="M600,209 l22,-45" class="combo"/>
+<path d="M600,209 l-22,45" class="combo"/>
+<rect rx="6" ry="6" x="586" y="196" width="28" height="26" class="combo"/>
+<text x="600" y="209" class="combo tap">BSPC</text>
 </g>
 </g>
 </g>
@@ -645,10 +645,10 @@ path.combo {
 <text x="441" y="163" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M628,205 l46,-51" class="combo"/>
-<path d="M628,205 l-46,51" class="combo"/>
-<rect rx="6" ry="6" x="614" y="192" width="28" height="26" class="combo"/>
-<text x="628" y="205" class="combo tap">BSPC</text>
+<path d="M600,209 l22,-45" class="combo"/>
+<path d="M600,209 l-22,45" class="combo"/>
+<rect rx="6" ry="6" x="586" y="196" width="28" height="26" class="combo"/>
+<text x="600" y="209" class="combo tap">BSPC</text>
 </g>
 </g>
 </g>
@@ -903,10 +903,10 @@ path.combo {
 <text x="441" y="163" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M628,205 l46,-51" class="combo"/>
-<path d="M628,205 l-46,51" class="combo"/>
-<rect rx="6" ry="6" x="614" y="192" width="28" height="26" class="combo"/>
-<text x="628" y="205" class="combo tap">BSPC</text>
+<path d="M600,209 l22,-45" class="combo"/>
+<path d="M600,209 l-22,45" class="combo"/>
+<rect rx="6" ry="6" x="586" y="196" width="28" height="26" class="combo"/>
+<text x="600" y="209" class="combo tap">BSPC</text>
 </g>
 </g>
 </g>
@@ -1170,10 +1170,10 @@ path.combo {
 <text x="441" y="163" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 <g class="combo combopos-1">
-<path d="M628,205 l46,-51" class="combo"/>
-<path d="M628,205 l-46,51" class="combo"/>
-<rect rx="6" ry="6" x="614" y="192" width="28" height="26" class="combo"/>
-<text x="628" y="205" class="combo tap">BSPC</text>
+<path d="M600,209 l22,-45" class="combo"/>
+<path d="M600,209 l-22,45" class="combo"/>
+<rect rx="6" ry="6" x="586" y="196" width="28" height="26" class="combo"/>
+<text x="600" y="209" class="combo tap">BSPC</text>
 </g>
 </g>
 </g>
