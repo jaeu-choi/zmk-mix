@@ -33,7 +33,7 @@ layers:
   - G
   - H
   - J
-  - K
+  - {t: K, h: LSHFT}
   - L
   - ;
   - ''''
@@ -53,11 +53,11 @@ layers:
   - MUTE
   - LEFT ALT
   - LGUI
-  - layer 1
+  - SPACE
   - SPACE
   - ENTER
   - layer 2
-  - LEFT WIN
+  - F18
   - RIGHT ALT
   - {t: SPACE, h: Buleth}
   - RCTRL
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,3 +247,5 @@ layers:
 combos:
 - p: [0, 11, 54, 53]
   k: '&bootloader'
+- p: [32, 55]
+  k: BSPC
