@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - '&f20_down'
   - LCTRL
   - MUTE
   - LEFT ALT
@@ -124,15 +124,15 @@ layers:
   - {t: ▽, type: trans}
   layer 2:
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
+  - BRI UP
+  - BRI DN
   - '#'
   - $
   - '%'
   - ^
   - '&'
-  - '*'
-  - (
+  - VOL DN
+  - VOL UP
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ':'
+  - UP ARROW
   - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,9 +168,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
-  - '>'
-  - '?'
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
