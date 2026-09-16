@@ -54,7 +54,7 @@ layers:
   - LEFT ALT
   - LGUI
   - SPACE
-  - SPACE
+  - layer 1
   - ENTER
   - layer 2
   - F18
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
