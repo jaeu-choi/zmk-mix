@@ -70,7 +70,7 @@
             bindings = <&mo>, <&kp>;
 
             tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
+            quick-tap-ms = <200>;
             flavor = "balanced";
         };
     };
@@ -96,11 +96,11 @@
         LAYER1 {
             display-name = "layer 1";
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5     &kp F6                &kp F7                 &kp F8            &kp F9             &kp F10         &kp F11
-&trans   &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL             &trans                 &trans            &trans             &trans          &trans
-&kp CAPS &trans  &trans  &trans  &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans   &trans  &trans  &trans  &trans  &trans     &trans                &trans                 &trans            &trans             &trans          &trans
-&trans   &trans  &trans  &trans  &trans  &trans     &trans                &trans                 &trans            &trans             &trans          &trans
+&kp F12   &kp F1  &kp F2  &kp F3              &kp F4            &kp F5               &kp F6                &kp F7                 &kp F8            &kp F9             &kp F10         &kp F11
+&trans    &trans  &trans  &trans              &kp LC(UP_ARROW)  &kp MINUS            &kp EQUAL             &trans                 &trans            &trans             &trans          &trans
+&kp CAPS  &trans  &trans  &kp LC(LEFT_ARROW)  &trans            &kp LC(RIGHT_ARROW)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans    &trans  &trans  &trans              &trans            &trans               &trans                &trans                 &trans            &trans             &trans          &trans
+&trans    &trans  &trans  &trans              &trans            &trans               &trans                &trans                 &trans            &trans             &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
