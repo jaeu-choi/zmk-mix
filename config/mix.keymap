@@ -70,7 +70,7 @@
             bindings = <&mo>, <&kp>;
 
             tapping-term-ms = <200>;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <175>;
             flavor = "balanced";
         };
     };
