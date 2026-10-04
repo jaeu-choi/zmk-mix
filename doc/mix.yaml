@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
+  - '-'
   - ESCAPE
   - Q
   - W
@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - '='
   - LCTRL
   - Gui+Sft+3
   - LEFT ALT
