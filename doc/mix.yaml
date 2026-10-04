@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - '-'
   - '='
   - {t: ▽, type: trans}
@@ -89,9 +89,9 @@ layers:
   - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+RIGHT ARROW
   - (
   - )
   - '['
