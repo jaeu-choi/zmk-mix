@@ -82,12 +82,19 @@
         input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_scaler 5 2>;
-          scroller {
-        layers = <1 2>;
-        input-processors =
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT)>,
-            <&zip_scroll_scaler 1 6>;
+        scroller_l1 {
+            layers = <1>;
+            input-processors =
+                <&zip_xy_to_scroll_mapper>,
+                <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT)>,
+                <&zip_scroll_scaler 1 12>;
+        };
+        scroller_l2 {
+            layers = <2>;
+            input-processors =
+                <&zip_xy_to_scroll_mapper>,
+                <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT)>,
+                <&zip_scroll_scaler 1 6>;
         };
     }; 
 };
