@@ -59,7 +59,7 @@ layers:
   - layer 2
   - F18
   - RIGHT ALT
-  - {t: SPACE, h: Buleth}
+  - {t: MUTE, h: Buleth}
   - '&f20_down'
   layer 1:
   - F12
@@ -102,8 +102,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+]
+  - Gui+[
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
