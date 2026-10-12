@@ -51,7 +51,7 @@ The current `build.yaml` generates the following firmware targets:
 
 ## Keymap Overview
 
-The current keymap includes four main layers:
+The current keymap includes four main layers plus three Windows overlays:
 
 | Layer    | Display Name | Purpose                                   |
 | -------- | ------------ | ----------------------------------------- |
@@ -59,6 +59,18 @@ The current keymap includes four main layers:
 | `LAYER1` | `layer 1`    | Function keys and brackets                |
 | `LAYER2` | `layer 2`    | Symbols and shifted number-row characters |
 | `LAYER3` | `Bluetooth`  | Bluetooth profile selection and clearing  |
+| `WIN`    | `Windows`    | Windows overlay for `LAYER0`              |
+| `WIN_L1` | `win 1`      | Windows overlay for `LAYER1`              |
+| `WIN_L2` | `win 2`      | Windows overlay for `LAYER2`              |
+
+### Windows Overlays
+
+The keymap is laid out for macOS. Bluetooth profile 1 is meant for a Windows host:
+`src/win_profile_layer.c` turns `WIN` on while profile 1 is active and off for every
+other profile, and conditional layers add `WIN_L1` / `WIN_L2` on top of `LAYER1` / `LAYER2`.
+The overlays only replace macOS-specific keys (Cmd → Ctrl, F18 → Hangul/English
+`LANG1`, ⇧⌘3 → Win+Shift+S, Mission Control and Spaces → Task View and virtual desktops,
+⌘[ / ⌘] → Alt+← / Alt+→, the F20 key → Win). USB connections don't switch automatically.
 
 ### Default Layer Highlights
 
@@ -87,6 +99,10 @@ The current keymap includes four main layers:
 │   ├── west.yml            # ZMK and external module manifest
 │   ├── mix.conf            # Runtime/build configuration
 │   └── mix.keymap          # Keymap layers, combos, and sensor bindings
+├── src/
+│   └── win_profile_layer.c # Switches the Windows overlay with the BLE profile
+├── CMakeLists.txt          # Module build hook for src/
+├── Kconfig                 # MIX_WIN_PROFILE / MIX_WIN_LAYER options
 └── README.md
 ```
 

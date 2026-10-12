@@ -1,0 +1,16 @@
+config MIX_WIN_PROFILE_LAYER
+    bool "Turn on the Windows overlay layer while the Windows BLE profile is active"
+    default y
+    depends on ZMK_BLE && (!ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL)
+
+if MIX_WIN_PROFILE_LAYER
+
+config MIX_WIN_PROFILE
+    int "BLE profile index paired with Windows"
+    default 1
+
+config MIX_WIN_LAYER
+    int "Keymap layer index of the Windows overlay layer"
+    default 4
+
+endif
